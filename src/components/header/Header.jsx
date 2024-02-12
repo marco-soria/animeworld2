@@ -30,16 +30,16 @@ const Header = () => {
           <Link to="/" className="nav-links">Home</Link>
         </li>
         <li>
-          <Link to="/anime" className="nav-links fs-3">Anime</Link>
+          <Link to="/anime" className="nav-links">Anime</Link>
         </li>
         <li>
-          <Link to="/news" className="nav-links fs-3">News</Link>
+          <Link to="/news" className="nav-links">News</Link>
         </li>
         <li>
-          <Link to="/store" className="nav-links fs-3">Store</Link>
+          <Link to="/store" className="nav-links">Store</Link>
         </li>
         <li>
-          <Link to="/signin" className="nav-links fs-3">Sign in</Link>
+          <Link to="/signin" className="nav-links">Sign in</Link>
         </li>
       </ul>
     </nav>
