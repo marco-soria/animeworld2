@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes} from 'react-router-dom'
-import Header from './components/header/Header';
-// import Footer from './components/common/Footer';
+import  { Header } from './components/header/Header';
+import { Footer } from './components/footer/Footer';
 // import Home from './components/pages/Home';
 // import Anime from './components/pages/Anime';
 // import News from './components/pages/News';
@@ -17,7 +17,7 @@ const Router = () => {
             
             
         </Routes>
-        
+        <Footer></Footer>
     </BrowserRouter>
   );
 };
