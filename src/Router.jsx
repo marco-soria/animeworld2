@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes} from 'react-router-dom'
-import  { Header } from './components/header/Header';
-import { Footer } from './components/footer/Footer';
+import  { Header } from './components/header';
+import { Footer } from './components/footer';
 // import Home from './components/pages/Home';
-// import Anime from './components/pages/Anime';
+import Anime from './pages/anime';
 // import News from './components/pages/News';
 // import Store from './components/pages/Store';
 // import SignIn from './components/pages/SignIn';
@@ -13,7 +13,7 @@ const Router = () => {
     <BrowserRouter>
         <Header></Header>
         <Routes>
-           
+          <Route path='/anime' element={<Anime></Anime>}> </Route>
             
             
         </Routes>
