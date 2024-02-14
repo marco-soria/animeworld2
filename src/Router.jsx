@@ -6,6 +6,8 @@ import { Footer } from './components/footer';
 import Anime from './pages/anime';
 import Store from './pages/store';
 import SignIn from './pages/signin';
+import Home from './pages/home';
+import News from './pages/news';
 // import News from './components/pages/News';
 // import Store from './components/pages/Store';
 // import SignIn from './components/pages/SignIn';
@@ -15,7 +17,9 @@ const Router = () => {
     <BrowserRouter>
         <Header></Header>
         <Routes>
+          <Route path='/' element={<Home></Home>}> </Route>
           <Route path='/anime' element={<Anime></Anime>}> </Route>
+          <Route path='/news' element={<News></News>}> </Route>
           <Route path='/store' element={<Store></Store>}> </Route>
           <Route path='/signin' element={<SignIn></SignIn>}> </Route>
             
