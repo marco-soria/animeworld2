@@ -8,7 +8,7 @@ import BannerA from '../../assets/anime/jujutsukaisen.jpg';
 
 const BannerAnime = () => {
   return (
-    <div className="container-fluid mb-4">
+    <div className="container-fluid mb-4" style={{marginTop: '90px'}}>
         <div className="row">
             <div className="col">
                 <img src={ BannerA } className="card border-0 d-block w-100" style={{maxHeight: '80vh', objectFit: 'cover'}} alt=""/>
