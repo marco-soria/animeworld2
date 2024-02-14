@@ -1,27 +1,27 @@
-.content-slider {
+.storecontent-slider {
     width: 100%;
     height: auto;
     overflow: hidden;
   }
   
-  .card-slider {
+  .storecard-slider {
     overflow: hidden;
     padding: 1rem 0;
     background: none;
   }
   
-  .slide {
+  .storeslide {
     white-space: nowrap;
-    animation: 23s slide infinite linear;
+    animation: 23s storeslide infinite linear;
   }
   
-  .slide img {
+  .storeslide img {
     height: 100px;
     margin: 0 40px;
     object-fit: cover;
   }
   
-  @keyframes slide {
+  @keyframes storeslide {
     from {
       transform: translateX(0);
     }

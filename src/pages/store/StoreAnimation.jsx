@@ -10,9 +10,9 @@ import Slider6 from '../../assets/store/slider6op.png';
 
 function StoreAnimation() {
   return (
-    <div className="container-fluid content-slider mt-5">
-      <div className="row card-slider">
-        <div className="col slide">
+    <div className="container-fluid storecontent-slider mt-5">
+      <div className="row storecard-slider">
+        <div className="col storeslide">
           <img src={Slider1} style={{ height: '180px' }} alt="" />
           <img src={Slider2} alt="" />
           <img src={Slider3} style={{ height: '180px' }} alt="" />

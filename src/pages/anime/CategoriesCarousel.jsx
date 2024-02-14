@@ -17,7 +17,7 @@ const CategoriesCarousel = () => {
       carruseles.forEach((carrusel) => {
         let items = carrusel.querySelectorAll('.carousel-item');
         const minPerSlide = 4;
-  
+    
         items.forEach((el) => {
             let next = el.nextElementSibling;
             for (var i = 1; i < minPerSlide; i++) {
@@ -27,7 +27,7 @@ const CategoriesCarousel = () => {
                 let cloneChild = next.cloneNode(true);
                 el.appendChild(cloneChild.children[0]);
                 next = next.nextElementSibling;
-          }
+            }
         });
       });
     }, []);
