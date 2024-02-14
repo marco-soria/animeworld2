@@ -1,5 +1,12 @@
 import React, { useState, useEffect } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './StoreProducts.css';
+
+import { FaRegHeart } from "react-icons/fa";
+import { FaHeart } from "react-icons/fa";
+import { IconContext } from 'react-icons';
+
 
 import Product1 from '../../assets/store/product1.jpg';
 import Product2 from '../../assets/store/product2.jpg';
@@ -196,7 +203,28 @@ const StoreProducts = () => {
                 <p className="card-text fs-5">${product.price.toFixed(2)}</p>
                 <div className="d-flex justify-content-between align-items-center">
                   <button className="btn btn-primary signupbutton mt-2">Add to Cart</button>
-                  <i className={`heart-icon fa ${product.favorite ? 'fa-solid' : 'fa-regular'} fa-heart fa-2xl`} style={{ cursor: 'pointer', color: '#ff0088' }} onClick={() => toggleFavorite(product.id)}></i>
+                  
+                  <IconContext.Provider value={{ color: '#C21292', size: '24px' }}>
+                  {product.favorite ? (
+                    
+                      <FaHeart
+                        className="heart-icon"
+                        style={{ cursor: 'pointer', size: '80px', color: '#ff0088' }}
+                        onClick={() => toggleFavorite(product.id)}
+                      />
+                    ) : (
+                      <FaRegHeart
+                        className="heart-icon"
+                        style={{ cursor: 'pointer', size: '80px', color: '#ff0088' }}
+                        onClick={() => toggleFavorite(product.id)}
+                      />
+
+                      
+                    )}
+                    </IconContext.Provider>
+                   
+
+                  
                 </div>
               </div>
             </div>
