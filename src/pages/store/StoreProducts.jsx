@@ -261,7 +261,7 @@ const StoreProducts = () => {
     };
   
     return (
-      <div className="container-fluid">
+      <div className="container-fluid g-0">
         {/* Sección de búsqueda */}
         <section className="container-fluid">
           <div className="row">
@@ -278,7 +278,7 @@ const StoreProducts = () => {
         {/* Contenedor de categorías y productos */}
         <div className="container-fluid">
           <div className="row">
-            <h2>Categories</h2>
+            <h3>Categories</h3>
           </div>
           <div className="row">
             <div className="col-md-2 mb-3">
