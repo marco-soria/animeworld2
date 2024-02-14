@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import './SearchAnime.css';
+import { IconContext } from 'react-icons';
+import { FaStar } from "react-icons/fa";
+
+import './RankingAnime.css';
 
 const RankingAnime = () => {
   const [animeList, setAnimeList] = useState([]);
@@ -34,6 +37,16 @@ const RankingAnime = () => {
 
   return (
     <section className="container-fluid mb-4">
+      <IconContext.Provider value={{ color: '#C21292', size: '24px' }}>
+      <div className="row" id="row-ranking">
+        <div className="col-md-12 d-flex align-items-center" style={{ border: 'solid 3px' }}>
+          <FaStar className='mb-1' />
+          <h2 className="fs-2" style={{ margin: '0px 5px' }}>Ranking</h2>
+          <FaStar className='mb-1' />
+        </div>
+      </div>
+    </IconContext.Provider>
+
       <div className="row" id="row-ranking">
         {animeList.map((result, index) => {
           return (
