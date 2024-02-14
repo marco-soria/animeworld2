@@ -73,7 +73,7 @@ const SearchAnime = () => {
                             <p className="text-title fs-5">Score: {result.score}</p>
                             <button
                                 type="button"
-                                className="btn btn-secondary signupbutton"
+                                className="btn btn-secondary animebutton"
                                 data-bs-toggle="modal"
                                 data-bs-target="#synopsisModal"
                                 onClick={() => handleSynopsisClick(synopsisString, result.title)}
@@ -101,7 +101,7 @@ const SearchAnime = () => {
                             onChange={handleInputChange}
                         />
                         <button
-                            className="btn btn-secondary signupbutton"
+                            className="btn btn-secondary animebutton"
                             type="button"
                             id="searchButton"
                             onClick={handleSearch}

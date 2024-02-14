@@ -61,7 +61,7 @@ function GiftCard() {
                     <option value="200">$200</option>
                                 </select>
                                 </div>
-                                <button type="button" className="btn btn-secondary signupbutton" id="addToCartButton"
+                                <button type="button" className="btn btn-secondary storebutton" id="addToCartButton"
                     onClick={addToCart} disabled={addToCartDisabled}>Add to Cart</button>
                 </div>
             </div>

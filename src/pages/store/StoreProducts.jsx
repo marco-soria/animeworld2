@@ -202,7 +202,7 @@ const StoreProducts = () => {
                 <h5 className="card-title" style={{ color: '#9500ff', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{product.name}</h5>
                 <p className="card-text fs-5">${product.price.toFixed(2)}</p>
                 <div className="d-flex justify-content-between align-items-center">
-                  <button className="btn btn-primary signupbutton mt-2">Add to Cart</button>
+                  <button className="btn btn-primary storebutton mt-2">Add to Cart</button>
                   
                   <IconContext.Provider value={{ color: '#C21292', size: '24px' }}>
                   {product.favorite ? (
@@ -268,7 +268,7 @@ const StoreProducts = () => {
             <div className="col-md-12">
               <div className="input-group mb-1">
                 <input type="text" className="form-control" id="searchInput" placeholder="Search Your Product" onChange={handleSearch} />
-                <button className="btn btn-success signupbutton" type="button" id="searchButton"> Search Product</button>
+                <button className="btn btn-success storebutton" type="button" id="searchButton"> Search Product</button>
               </div>
             </div>
           </div>

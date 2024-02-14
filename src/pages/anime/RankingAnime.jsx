@@ -64,7 +64,7 @@ const RankingAnime = () => {
                   <p className="text-title fs-5">Score: {result.score}</p>
                   <button
                     type="button"
-                    className="btn btn-secondary signupbutton"
+                    className="btn btn-secondary animebutton"
                     onClick={() => handleSynopsisClick(result.synopsis, result.title)}
                   >
                     Synopsis

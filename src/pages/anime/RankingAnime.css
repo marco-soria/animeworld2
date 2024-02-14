@@ -28,22 +28,9 @@
   }
   
   /* buttons */
-  .signinbutton {
-    background-color: #E26EE5;
-    color:white;
-    border: #E26EE5 ;
-   /*  border-radius: 30%;
-    padding: 10px 15px;
-    margin-right: 10px; */
-  }
   
-  .signinbutton:hover{
-    background-color: #b346b7 !important;
-    color:white !important;
-    border: #b346b7 !important ;
-  }
   
-  .signupbutton {
+  .animebutton {
     background-color: #C21292;
     color:white;
     border: #C21292 ;
@@ -52,7 +39,7 @@
     margin-left: 10px; */
   }
   
-  .signupbutton:hover{
+  .animebutton:hover{
     background-color: #910A67 !important;
     color:white !important;
     border: #910A67 !important;
