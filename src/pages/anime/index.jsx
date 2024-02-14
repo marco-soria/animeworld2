@@ -1,5 +1,6 @@
 import React from 'react';
-/* import AnimeImage from './AnimeImage';*/
+
+import { BannerAnime } from './BannerAnime';
 import { RankingAnime } from './RankingAnime';
 import { SearchAnime } from './SearchAnime';
 import { CategoriesCarousel } from './CategoriesCarousel';
@@ -7,6 +8,7 @@ import { CategoriesCarousel } from './CategoriesCarousel';
 const AnimePage = () => {
   return (
     <>
+        <BannerAnime />
         <SearchAnime />
         <RankingAnime />
         <CategoriesCarousel />
