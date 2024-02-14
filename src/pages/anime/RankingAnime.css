@@ -86,6 +86,7 @@
     
     /* Estilo para el fondo del botón de cierre del modal */
     #synopsisModal .btn-close {
+      background-color: #C21292;
       color: white;
     }
     
