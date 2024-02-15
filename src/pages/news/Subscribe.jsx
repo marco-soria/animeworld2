@@ -16,7 +16,7 @@ const Subscribe = () => {
                     <h5 className="text-center mb-3">Get the latest anime news</h5>
                     <div style={{maxWidth: '500px'}}> 
                         <div className="input-group mb-3 d-flex justify-content-center">
-                        <span class="input-group-text"><FaEnvelope/></span>
+                        <span className="input-group-text"><FaEnvelope/></span>
                             <input type="text" className="form-control" style={{width:'40vh'}} placeholder="Email" aria-label="Email" aria-describedby="basic-addon2"/>
                         </div>
                     </div> 

@@ -22,7 +22,7 @@ function SignInForm() {
   };
 
   return (
-    <div className="container" style={{ marginTop: '90px' }}>
+    <div className="container" style={{ marginTop: '80px' }}>
       <div className="row justify-content-center">
         <div className="col-md-6 p-0">
           <div className="card border-0" id="signupCard">

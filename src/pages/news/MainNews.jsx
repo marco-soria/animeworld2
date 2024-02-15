@@ -7,7 +7,7 @@ import NewsImage3 from '../../assets/news/newsmain3.png';
 
 function MainNews() {
   return (
-    <div className="container g-0" style={{ marginTop: '90px' }}>
+    <div className="container g-0" style={{ marginTop: '80px' }}>
       <div className="row g-1">
         <h2>Latest News</h2>
         <hr className="mainhr" />

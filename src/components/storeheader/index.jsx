@@ -1,3 +1,4 @@
+/*
 import React, { useState } from 'react';
 import './StoreHeader.css';
 import { Link } from 'react-router-dom';
@@ -76,3 +77,5 @@ const StoreHeader = () => {
 
 
 export { StoreHeader };
+
+*/
